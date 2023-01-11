@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+def uniq_add(my_list=[]):
+    new = []
+    for i in my_list:
+        if i not in new:
+            new.append(i)
+    for y in range(len(new)):
+        x = 0
+        x = x + new[y]
+    return x
