@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+def rasie_exception():
+    try:
+        raise TypeError
+    except TypeError:
+        return
