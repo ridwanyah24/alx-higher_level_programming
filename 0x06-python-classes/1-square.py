@@ -4,10 +4,7 @@
 
 class Square():
     def __init__(self, size):
-        self.size = size
 
-"""This class inherits from Square"""
+        """the arguments are """
 
-
-class NewSquare(Square):
-    pass
+        self.__size = size
