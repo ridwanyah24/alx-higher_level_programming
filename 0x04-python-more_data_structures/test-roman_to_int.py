@@ -6,4 +6,3 @@ def roman_to_int(roman_string):
     roman_equivalent = {'I': 1, 'X': 10, 'V': 5, 'L': 50, 'C': 100,
                         'D': 500, 'M': 1000 }
     roman = [i for i in roman_string]
-    

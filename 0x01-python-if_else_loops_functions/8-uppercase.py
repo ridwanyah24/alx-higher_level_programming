@@ -5,3 +5,6 @@ def uppercase(str):
             i = chr(ord(i) - 32)
         print("{}".format(i), end="")
     print("")
+if __name__ == "__main__":
+    import sys
+    uppercase(str(sys.argv[1]))

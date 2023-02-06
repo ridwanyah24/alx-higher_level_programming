@@ -1,8 +1,11 @@
 #!/usr/bin/python3
-delete_at = __import__('11-delete_at').delete_at
+def insert_in_list(key, value, the_list=[]):
+    the_list.append([{f'{key} : {value}'}])
+    for i in the_list:
+    	print(i)
 
-my_list = [1, 2, 3, 4, 5]
-idx = 3
-new_list = delete_at(my_list, idx)
-print(new_list)
-print(my_list)
+test_list = []
+insert_in_list('Name', 'Ridwan', test_list)
+    
+    
+	
