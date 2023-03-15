@@ -1,0 +1,39 @@
+#!/usr/bin/python3
+
+
+def matrix_divided(matrix, div):
+    """ the function divides all elements of a matrix
+    the matrix must be a list of integers or floats otherwise:
+    Raise: TypeError (matrix must be a matrix(list of lists) of integers/floats)
+
+    Each row of the matrix must be of same size, otherwise:
+    Raise : TypeError (Each row of the matrix must have the same size)
+
+    div must be a number(int/float) otherwise:
+    Raise: TypeError (dive must be a number)
+
+    div can't be 0 otherwise:
+    Rasie: ZeroDivisionError: division by zero
+
+    All elements of the matrix should be divided by div, rounded to 2 dec places
+    """
+    for i in len(matrix):
+        if len(matrix[i]) != len(matrix(i+1)):
+            raise TypeError("Each row of the matrix must have the same size")
+
+    for i in range(len(matrix)):
+        for k in range(matrix[i]):
+            if (not isinstance(matrix[i][k], int) or not
+                isinstance(matrix[i][k], float)):
+                raise TypeError('matrix must be a matrix (list of lists)
+                of integers/floats')
+    if div == 0:
+        raise ZeroDivisionError("division by zero")
+
+    if (not isinstance(div, int) or not isinstance(div, float)):
+        raise TypeError("div must be a number")
+
+    new_matrix = []
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i])):
+            matrix[i][j] /= 2.00
