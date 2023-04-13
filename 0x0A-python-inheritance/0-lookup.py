@@ -1,4 +1,4 @@
-#!/bin/bash/python3
+#!/usr/bash/python3
 
 
 def lookup(obj):
