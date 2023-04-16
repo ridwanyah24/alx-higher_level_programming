@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""this class returns true if an
+
+
+"""this function returns true if an
 objects is an instance of a class that inherits
 directly or indirectly from the specified class otherwise false"""
 
