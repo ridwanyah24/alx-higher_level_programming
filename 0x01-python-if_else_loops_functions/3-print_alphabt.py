@@ -1,0 +1,5 @@
+#!/usr/bin/python3
+for lower in range(0x61, 0x7B):
+    if chr(lower) == "e" or chr(lower) == "q":
+        continue
+    print("{}".format(chr(lower)), end="")
