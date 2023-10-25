@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" Define Class Square """
 
 class Square:
     """This class defines a sqaure by 0-sqaure.py"""
