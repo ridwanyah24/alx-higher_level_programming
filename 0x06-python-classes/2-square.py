@@ -3,8 +3,8 @@
 class Square:
     """Defines a square by
 
-    Args: size - size of the square
-    Return: nothing
+    Args:
+         size - size of the square
     """
     def __init__(self, size=0):
         self.__size = size
